@@ -49,8 +49,20 @@ A kitchen has many items.
 -   An herbs and spices rack containing chives, lemon grass, and mint on one
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
+{
+"kitchen:" {
+"cupboard:" ["bowls", "plates"],
+"electric stove:" ["small", "medium", "large" "extra large"],
+"herb rack:" ["chives", "lemongrass" "mint"],
+"spices rack:" ["cinnamon", "nutmeg:", "vanilla"],
+}
+}
+
 ```json
-<!-- your answer here -->
+
+
+Sources: http://json-schema.org/example1.html
+
 ```
 
 ## Modeling Data Using JSON: Part II
@@ -62,7 +74,19 @@ delicious apple.
 Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
 ```json
-<!-- your answer here -->
+{
+"kitchen:" {
+  "cupboard:" ["bowls", "plates"],
+  "electric stove:" ["small", "medium", "large" "extra large"],
+  "herb rack:" ["chives", "lemongrass" "mint"],
+  "spices rack:" ["cinnamon", "nutmeg:", "vanilla"],
+  "fruit basket:" {
+    "Fuji apples: 2"
+    "Gala apples: 7"
+    "Golden delicious apple: 1"
+  }
+}
+}
 ```
 
 ## JSON Methods
@@ -70,7 +94,7 @@ Copy the JSON that you wrote for the previous question and include the new infor
 Can you write a method in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No, a method cannot be written in JSON.  It is a data description language only.
 ```
 
 ## JSON Comments
@@ -78,5 +102,5 @@ Can you write a method in the JSON that you wrote above?
 Can you write comments in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No, comments cannot be written in JSON.  It is a data description language only.
 ```
