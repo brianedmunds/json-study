@@ -49,6 +49,10 @@ A kitchen has many items.
 -   An herbs and spices rack containing chives, lemon grass, and mint on one
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
+
+
+```json
+
 {
 "kitchen:" {
 "cupboard:" ["bowls", "plates"],
@@ -58,10 +62,7 @@ A kitchen has many items.
 }
 }
 
-```json
-
-
-Sources: http://json-schema.org/example1.html
+Sources: required reading
 
 ```
 
@@ -87,6 +88,8 @@ Copy the JSON that you wrote for the previous question and include the new infor
   }
 }
 }
+
+Sources: required reading
 ```
 
 ## JSON Methods
